@@ -1,0 +1,23 @@
+body
+{
+	margin:5%;
+}
+div.player
+{
+	margin-left:20%;
+	margin-right: 20%;
+}
+
+div.player section
+{
+	display: inline;
+	padding:2%;
+}
+div.player section:hover
+{
+	background-color:#111;
+}
+#play
+{
+
+}
