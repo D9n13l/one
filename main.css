@@ -43,7 +43,35 @@ div.browse
 	border-top:none;
 	text-align:center;
 }
+/*Interfaces*/
+button
+{
+	cursor:pointer;
+	outline:none;
+	border:none;
+	width:100px;
+	height:100px;
+}
 
+button#playbutton
+{
+	background: url(images/play.png) no-repeat;
+	background-size: 100% 100%;
+}
+button#previousbutton
+{
+	background: url(images/previous.png) no-repeat;
+	background-size:100% 100%;
+}
+button#nextbutton
+{
+	background: url(images/next.png) no-repeat;
+	background-size:100% 100%;
+}
+
+
+
+/*Footer of page*/
 #foot
 {
 	padding:2%;
