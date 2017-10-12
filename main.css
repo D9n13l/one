@@ -68,8 +68,18 @@ button#nextbutton
 	background: url(images/next.png) no-repeat;
 	background-size:100% 100%;
 }
-
-
+button#browsebutton
+{
+	width:150px;
+	height:150px;
+	background: url(images/drop.png) no-repeat;
+	background-size: 100% 100%;
+}
+button#browsebutton:hover
+{
+	background-color: #666;
+	border-radius:6px;
+}
 
 /*Footer of page*/
 #foot
