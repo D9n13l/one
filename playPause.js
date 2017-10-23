@@ -2,7 +2,7 @@ var audio, playpausebtn;
 function initPlayer()
 {
 	audio = new Audio();
-	audio.src ="assets/Kalimba.mp3";
+	//audio.src ="assets/Kalimba.mp3";
 	audio.loop = false;
 
 	playpausebtn = document.getElementById("playbutton");

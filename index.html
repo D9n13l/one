@@ -5,6 +5,13 @@
 <title>Music Play</title>
 <link rel="stylesheet" type="text/css" href="main.css">
 <script src="playPause.js"></script>
+<script src="browse.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+	$("#uploadTrigger").click(function(){
+	   $("#browsebutton").click();
+	});
+</script>
 </head>
 
 <body>
@@ -21,7 +28,8 @@
 
 </div>
 
-<div class="list">
+<div id="list">
+<p id ="songs"></p>
 <ul id="playList">
 	<li>Track 1</li>
 	<li></li>
@@ -30,7 +38,8 @@
 
 <div class="browse">
 <h2>Browse for a song on your computer ...</h2>
-<button id="browsebutton"></button>
+<input type="file" class="hidden" id="browsebutton" onchange="browseFile()" multiple="multiple" file="FileList"></button>
+<div class="button" id="uploadTrigger"><h3>Upload File</h3></div><!-- upload trigger-->
 </div>
 
 <div id="foot">

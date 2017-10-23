@@ -44,7 +44,7 @@ div.browse
 	text-align:center;
 
 }
-div.list
+div#list
 {
 	margin-left:25%;
 	margin-right:25%;
@@ -95,6 +95,24 @@ button#browsebutton:hover
 	border-radius:6px;
 }
 
+.hidden {
+    display:none;
+}
+.button 
+{
+	margin-left:35%;
+	padding:3%;
+	width:150px;
+	height:150px;
+	background: url(images/drop.png) no-repeat;
+	background-size: 100% 100%;
+	color: #c8d6d1;
+}
+
+.button:hover {
+    background-color: #c8d6d1;
+    cursor: pointer;
+}
 /*Footer of page*/
 #foot
 {
